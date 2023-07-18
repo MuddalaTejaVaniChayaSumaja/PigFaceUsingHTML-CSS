@@ -1,0 +1,141 @@
+h1{
+    margin-left: 25%;
+    color: mediumvioletred;
+    font-size: 50px;
+}
+
+#box{
+    height: 500px;
+    width: 1000px;
+    background-color: aqua;
+    position: absolute;
+    border: solid black;
+}
+#face{
+    margin-top: 0%;
+    position: absolute;
+    left:30%;
+}
+#main{
+    position:relative;
+    top: -200px;
+    width:300px;
+    height:300px;
+    border:2px solid black;
+    background-color:lightpink;
+    border-radius: 45%;
+}
+#eye1{
+    position:relative;
+    width:80px;
+    height:90px;
+    border:2px solid black;
+    background-color: white;
+    border-radius:50%;
+    top:-450px;
+    left:60px;
+}
+#eye2{
+    position:relative;
+    width:80px;
+    height:90px;
+    border:2px solid black;
+    background-color: white;
+    border-radius:50%;
+    left:150px;
+    top: -545px;
+}
+#eye1ball{
+    position:relative;
+    width:60px;
+    height:60px;
+    border:2px solid black;
+    background-color: black;
+    border-radius:50%;
+    top:27px;
+    left:11px;
+}
+#eye2ball{
+    position:relative;
+    width:60px;
+    height:60px;
+    border:2px solid black;
+    background-color: black;
+    border-radius:50%;
+    top:27px;
+    left:11px;
+}
+#nose{
+    position:relative;
+    width:90px;
+    height:90px;
+    border:2px solid black;
+    background-color:purple;
+    border-radius:50%;
+    left:103px;
+    top: -530px;
+}
+#nostril1{
+    position:relative;
+    width:20px;
+    height:20px;
+    border:2px solid black;
+    background-color: rgb(169, 74, 169);
+    border-radius:50%;
+    top:35px;
+    left:20px;
+}
+#nostril2{
+    position:relative;
+    width:20px;
+    height:20px;
+    border:2px solid black;
+    background-color:  rgb(169, 74, 169);
+    border-radius:50%;
+    left:48px; 
+    top:12px;
+}
+#ear1{
+    position:relative;
+    width:120px;
+    height:135px;
+    border:2px solid black;
+    background-color: pink;
+    border-radius:50%;
+    left:5px; 
+    top:50px;
+    transform: skew(6deg, 0);
+}
+#ear2{
+    position:relative;
+    width:120px;
+    height:135px;
+    border:2px solid black;
+    background-color: pink;
+    border-radius:50%;
+    left:180px; 
+    top:-180px;
+    transform: skew(-6deg,0);
+}
+#earr1{
+    position:relative;
+    width:90px;
+    height:90px;
+    border:2px solid black;
+    background-color: brown;
+    border-radius:50%;
+    top: -45px;
+    left:24px;
+    transform: skew(6deg, 0);
+}
+#earr2{
+    position:absolute;
+    width:90px;
+    height:90px;
+    border:2px solid black;
+    background-color: brown;
+    border-radius:50%;
+    top:95px;
+    left:190px;
+    transform: skew(-6deg, 0);
+}
